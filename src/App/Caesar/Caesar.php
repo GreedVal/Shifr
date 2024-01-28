@@ -6,10 +6,10 @@ class Caesar
 {
 
     /**
-     * 
+     * We encrypt the text with the Caesar cipher.
      *
-     * @param string $text // текст для шифрования
-     * @param int $shift // шаг при шифровании
+     * @param string $text   Text for encryption
+     * @param int $shift     The encryption step
      * @return string
      */
     function caesarEncrypt($text, $shift): string
@@ -32,10 +32,10 @@ class Caesar
     }
 
     /**
+     * Decrypt the text encrypted with the Caesar cipher.
      *
-     *
-     * @param string $text // текст для дешифрования
-     * @param int $shift // шаг при дешифровании
+     * @param string $text   Text for encryption
+     * @param int $shift     The encryption step
      * @return string
      */
     function caesarDecrypt($text, $shift): string
