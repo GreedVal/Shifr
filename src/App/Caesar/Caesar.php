@@ -6,7 +6,7 @@ class Caesar
 {
 
     /**
-     * We encrypt the text with the Caesar cipher.
+     * We encrypt the text with the Caesar cipher (Latin alphabet only).
      *
      * @param string $text   Text for encryption
      * @param int $shift     The encryption step
@@ -32,7 +32,7 @@ class Caesar
     }
 
     /**
-     * Decrypt the text encrypted with the Caesar cipher.
+     * Decrypt the text encrypted with the Caesar cipher (Latin alphabet only).
      *
      * @param string $text   Text for encryption
      * @param int $shift     The encryption step
